@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+button {
+    border: none;
+}
+.head {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 25px;
+}
+.center a {
+    color: gray;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+transition: 1s;
+margin: 15px;
+}
+.center a:hover {
+    color: #3685FB;
+font-size: 16px;
+font-weight: 400;
+line-height:  112.5% ; /**/
+}
+.right button {
+    border-radius: 3px;
+    background: var(--Button-Light, rgba(255, 255, 255, 0.10));
+    box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.10);
+    color: #FFF;
+font-size: 14px;
+font-weight: 500;
+padding:10px 30px ;
+}
+body {
+    background: #0B0B22;
+
+}
+.left {
+    color: #FFF;
+font-size: 14px;
+font-weight: 700;
+}
+.hero {
+    text-align: center;
+    padding-top: 80px;
+}
+.hero h4 {
+    color: var(--Green, #16FCD2);
+text-align: center;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+/* Section Badge */
+font-size: 16px;
+font-weight: 400;
+line-height: 200%; /*  */
+letter-spacing: 1.6px;
+}
+.hero h1 {
+    color: #FFF;
+text-align: center;
+margin: 15px 0;
+
+/* Page Title */
+font-size: 36px;
+font-weight: 700;
+line-height: 150%; /*  */
+}
+.hero p {
+    color: gray;
+text-align: center;
+
+/* Page Description */
+font-size: 16px;
+font-weight: 400;
+line-height: 200%; /*  */
+}
+
+.btn1 {
+    padding: 15px 40px;
+    border-radius: 3px;
+    background: var(--Primary, #6016FC);
+    color: #FFF;
+font-size: 16px;
+font-weight: 600;
+margin: 0 20px;
+margin-top: 40px;
+}
+.btn2 {
+    border-radius: 3px;
+background: var(--Button-Light, rgba(255, 255, 255, 0.10));
+padding: 15px 40px;
+color: #FFF;
+font-size: 16px;
+font-weight: 600;
+}
+.block1 {
+    border-radius: 5px;
+background: var(--Light, rgba(255, 255, 255, 0.05));
+padding: 40px 30px;
+margin: 60px 10px;
+}
+.block {
+display: flex;
+justify-content: center;
+padding-top: 70px;
+padding-bottom: 30px;
+}
+.block1 h4 {
+    color: #FFF;
+
+/* Feature Card Title */
+font-size: 18px;
+font-weight: 500;
+margin: 15px 0 5px 0;
+}
+.block1 p {
+    color: var(--Muted, rgba(255, 255, 255, 0.60));
+
+/* Feature Card Description */
+font-size: 16px;
+font-weight: 300;
+line-height: 32px; /* 200% */
+}
+.xc {
+    position: relative;
+    top: -20px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.q1 {
+    margin: 0 20px ;
+}
+.q2 {
+    margin: 0 20px ;
+}
+.q3 {
+    margin: 0 20px ;
+}
+.q4 {
+    margin: 0 20px ;
+}
+.q5 {
+    margin: 0 20px ;
+}
